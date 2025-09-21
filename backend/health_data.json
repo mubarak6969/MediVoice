@@ -1,0 +1,403 @@
+[
+  {
+    "symptom": "headache",
+    "conditions": ["Migraine", "Tension headache", "Flu"],
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "organic_remedies": ["Rest in a dark room", "Drink water", "Apply cold compress"],
+    "food_suggestions": ["Soups", "Coconut water", "Light meals"],
+    "doctor_suggestion": "Consult a doctor if headaches are frequent or severe."
+  },
+  {
+    "symptom": "fever",
+    "conditions": ["Common cold", "Flu", "Viral infection"],
+    "medicines": ["Paracetamol (Dolo-650)", "Ibuprofen if severe"],
+    "organic_remedies": ["Rest well", "Drink warm water", "Take sponge bath"],
+    "food_suggestions": ["Soups", "Fruit juices", "Easily digestible meals"],
+    "doctor_suggestion": "See a doctor if fever >102°F or lasts more than 3 days."
+  },
+  {
+    "symptom": "cold",
+    "conditions": ["Common cold", "Allergy", "Flu"],
+    "medicines": ["Antihistamines", "Paracetamol"],
+    "organic_remedies": ["Steam inhalation", "Ginger tea", "Warm saltwater gargle"],
+    "food_suggestions": ["Hot soups", "Herbal teas", "Citrus fruits"],
+    "doctor_suggestion": "Consult a doctor if cold persists for more than 10 days."
+  },
+  {
+    "symptom": "throat pain",
+    "conditions": ["Tonsillitis", "Sore throat", "Throat infection"],
+    "medicines": ["Lozenges", "Antibiotics if bacterial"],
+    "organic_remedies": ["Saltwater gargle", "Honey with warm water", "Ginger tea"],
+    "food_suggestions": ["Warm soups", "Herbal teas", "Soft foods"],
+    "doctor_suggestion": "Consult a doctor if throat pain lasts more than 1 week."
+  },
+  {
+    "symptom": "cough",
+    "conditions": ["Bronchitis", "Common cold", "Asthma"],
+    "medicines": ["Cough syrup", "Antihistamines"],
+    "organic_remedies": ["Honey with ginger", "Steam inhalation", "Warm turmeric milk"],
+    "food_suggestions": ["Warm fluids", "Soups", "Avoid cold drinks"],
+    "doctor_suggestion": "Consult a doctor if cough lasts >3 weeks or with chest pain."
+  },
+  {
+    "symptom": "stomach pain",
+    "conditions": ["Indigestion", "Gastritis", "Food poisoning"],
+    "medicines": ["Antacids", "ORS if dehydration"],
+    "organic_remedies": ["Ginger tea", "Peppermint tea", "Rest"],
+    "food_suggestions": ["Light foods like khichdi", "Bananas", "Curd rice"],
+    "doctor_suggestion": "See a doctor if pain is severe or persistent."
+  },
+  {
+    "symptom": "vomiting",
+    "conditions": ["Food poisoning", "Stomach infection", "Migraine"],
+    "medicines": ["ORS solution", "Domperidone"],
+    "organic_remedies": ["Ginger water", "Peppermint tea"],
+    "food_suggestions": ["Bananas", "Coconut water", "Light soups"],
+    "doctor_suggestion": "Consult doctor if vomiting persists >24 hours or with blood."
+  },
+  {
+    "symptom": "diarrhea",
+    "conditions": ["Food poisoning", "Stomach infection", "Irritable bowel syndrome"],
+    "medicines": ["ORS", "Loperamide if needed"],
+    "organic_remedies": ["Drink rice water", "Buttermilk"],
+    "food_suggestions": ["Bananas", "Plain rice", "Toast"],
+    "doctor_suggestion": "See a doctor if diarrhea is severe or lasts >3 days."
+  },
+  {
+    "symptom": "back pain",
+    "conditions": ["Muscle strain", "Spinal issues", "Kidney infection"],
+    "medicines": ["Pain relievers", "Muscle relaxants"],
+    "organic_remedies": ["Hot compress", "Stretching", "Rest"],
+    "food_suggestions": ["Calcium-rich foods", "Vitamin D foods"],
+    "doctor_suggestion": "Consult doctor if pain radiates to legs or lasts >2 weeks."
+  },
+  {
+    "symptom": "fatigue",
+    "conditions": ["Anemia", "Thyroid issues", "Vitamin deficiency"],
+    "medicines": ["Iron supplements", "Vitamin tablets"],
+    "organic_remedies": ["Regular sleep", "Mild exercise"],
+    "food_suggestions": ["Green leafy vegetables", "Nuts", "Fruits"],
+    "doctor_suggestion": "Consult a doctor if fatigue persists for weeks."
+  },
+  {
+    "symptom": "chest pain",
+    "conditions": ["Heart problem", "Acid reflux", "Anxiety"],
+    "medicines": ["Antacids", "Aspirin (only under doctor advice)"],
+    "organic_remedies": ["Deep breathing", "Avoid heavy meals"],
+    "food_suggestions": ["Light meals", "Avoid spicy food"],
+    "doctor_suggestion": "Immediate medical help needed if chest pain is severe."
+  },
+  {
+    "symptom": "shortness of breath",
+    "conditions": ["Asthma", "Lung infection", "Heart disease"],
+    "medicines": ["Inhalers", "Bronchodilators"],
+    "organic_remedies": ["Breathing exercises", "Steam inhalation"],
+    "food_suggestions": ["Vitamin C-rich fruits", "Warm fluids"],
+    "doctor_suggestion": "Seek urgent care if breathing difficulty is sudden/severe."
+  },
+  {
+    "symptom": "dizziness",
+    "conditions": ["Low BP", "Dehydration", "Vertigo"],
+    "medicines": ["ORS", "Vitamin supplements"],
+    "organic_remedies": ["Rest in lying position", "Drink water"],
+    "food_suggestions": ["Electrolyte drinks", "Fruits"],
+    "doctor_suggestion": "Consult doctor if dizziness is frequent or with fainting."
+  },
+  {
+    "symptom": "skin rash",
+    "conditions": ["Allergy", "Fungal infection", "Eczema"],
+    "medicines": ["Antihistamines", "Anti-fungal creams"],
+    "organic_remedies": ["Aloe vera gel", "Neem paste"],
+    "food_suggestions": ["Avoid oily foods", "Eat fresh fruits"],
+    "doctor_suggestion": "Consult doctor if rash spreads rapidly."
+  },
+  {
+    "symptom": "toothache",
+    "conditions": ["Cavity", "Gum infection", "Tooth decay"],
+    "medicines": ["Pain relievers", "Antibiotics if severe"],
+    "organic_remedies": ["Clove oil", "Warm saltwater rinse"],
+    "food_suggestions": ["Soft foods", "Avoid sweets"],
+    "doctor_suggestion": "Visit dentist if pain lasts >2 days."
+  },
+  {
+    "symptom": "ear pain",
+    "conditions": ["Ear infection", "Wax buildup", "Sinus infection"],
+    "medicines": ["Pain relievers", "Antibiotic drops if prescribed"],
+    "organic_remedies": ["Warm compress", "Garlic oil drops"],
+    "food_suggestions": ["Soft foods", "Warm soups"],
+    "doctor_suggestion": "Consult ENT if ear pain lasts >2 days or with discharge."
+  },
+  {
+    "symptom": "eye redness",
+    "conditions": ["Conjunctivitis", "Allergy", "Dry eyes"],
+    "medicines": ["Lubricating drops", "Antihistamine drops"],
+    "organic_remedies": ["Cold compress", "Rose water rinse"],
+    "food_suggestions": ["Carrots", "Green leafy vegetables"],
+    "doctor_suggestion": "Visit ophthalmologist if redness persists >3 days."
+  },
+  {
+    "symptom": "eye pain",
+    "conditions": ["Eye strain", "Glaucoma", "Infection"],
+    "medicines": ["Pain relievers", "Eye drops"],
+    "organic_remedies": ["Rest eyes", "Use cucumber slices"],
+    "food_suggestions": ["Vitamin A-rich foods", "Omega-3 foods"],
+    "doctor_suggestion": "Seek urgent care if sudden/severe pain with vision loss."
+  },
+  {
+    "symptom": "runny nose",
+    "conditions": ["Common cold", "Allergy", "Sinus infection"],
+    "medicines": ["Antihistamines", "Decongestants"],
+    "organic_remedies": ["Steam inhalation", "Ginger tea"],
+    "food_suggestions": ["Citrus fruits", "Hot soups"],
+    "doctor_suggestion": "Consult doctor if runny nose lasts >10 days."
+  },
+  {
+    "symptom": "joint pain",
+    "conditions": ["Arthritis", "Injury", "Vitamin D deficiency"],
+    "medicines": ["Pain relievers", "Anti-inflammatory drugs"],
+    "organic_remedies": ["Hot compress", "Turmeric milk"],
+    "food_suggestions": ["Calcium-rich foods", "Leafy greens"],
+    "doctor_suggestion": "Consult doctor if joint pain is chronic."
+  },
+  {
+    "symptom": "knee pain",
+    "conditions": ["Osteoarthritis", "Injury", "Rheumatism"],
+    "medicines": ["Pain relievers", "Joint supplements"],
+    "organic_remedies": ["Hot compress", "Gentle stretching"],
+    "food_suggestions": ["Protein-rich foods", "Omega-3 foods"],
+    "doctor_suggestion": "Consult orthopedist if pain is severe."
+  },
+  {
+    "symptom": "leg swelling",
+    "conditions": ["Kidney disease", "Heart failure", "Injury"],
+    "medicines": ["Diuretics if prescribed", "Pain relievers"],
+    "organic_remedies": ["Leg elevation", "Compression stockings"],
+    "food_suggestions": ["Low-salt diet", "Watermelon"],
+    "doctor_suggestion": "Seek medical care if swelling is sudden or with breathlessness."
+  },
+  {
+    "symptom": "hand tremor",
+    "conditions": ["Parkinson’s disease", "Stress", "Thyroid problem"],
+    "medicines": ["Beta-blockers", "Nerve stabilizers"],
+    "organic_remedies": ["Meditation", "Hand exercises"],
+    "food_suggestions": ["Vitamin B-rich foods", "Nuts"],
+    "doctor_suggestion": "Consult neurologist if tremors persist."
+  },
+  {
+    "symptom": "burning urination",
+    "conditions": ["Urinary tract infection", "Kidney stones"],
+    "medicines": ["Antibiotics (if bacterial)", "Pain relievers"],
+    "organic_remedies": ["Drink cranberry juice", "Drink plenty of water"],
+    "food_suggestions": ["Coconut water", "Buttermilk"],
+    "doctor_suggestion": "See doctor if burning persists >2 days."
+  },
+  {
+    "symptom": "frequent urination",
+    "conditions": ["Diabetes", "UTI", "Overactive bladder"],
+    "medicines": ["Antibiotics if infection", "Bladder relaxants"],
+    "organic_remedies": ["Avoid caffeine", "Practice bladder training"],
+    "food_suggestions": ["Cucumber", "Coconut water"],
+    "doctor_suggestion": "Consult doctor if urination is frequent and uncontrolled."
+  },
+  {
+    "symptom": "hair fall",
+    "conditions": ["Nutritional deficiency", "Stress", "Hormonal imbalance"],
+    "medicines": ["Biotin supplements", "Minoxidil"],
+    "organic_remedies": ["Aloe vera oil", "Coconut oil massage"],
+    "food_suggestions": ["Protein-rich foods", "Green leafy vegetables"],
+    "doctor_suggestion": "Consult dermatologist if hair fall is severe."
+  },
+  {
+    "symptom": "acne",
+    "conditions": ["Hormonal imbalance", "Oily skin", "Stress"],
+    "medicines": ["Salicylic acid creams", "Antibiotics if severe"],
+    "organic_remedies": ["Neem paste", "Aloe vera gel"],
+    "food_suggestions": ["Avoid oily foods", "Eat fruits"],
+    "doctor_suggestion": "Consult dermatologist if acne is persistent."
+  },
+  {
+    "symptom": "insomnia",
+    "conditions": ["Stress", "Anxiety", "Caffeine overuse"],
+    "medicines": ["Melatonin supplements", "Mild sedatives if prescribed"],
+    "organic_remedies": ["Meditation", "Chamomile tea"],
+    "food_suggestions": ["Warm milk", "Bananas"],
+    "doctor_suggestion": "See doctor if insomnia lasts >2 weeks."
+  },
+  {
+    "symptom": "anxiety",
+    "conditions": ["Stress disorder", "Panic disorder", "Depression"],
+    "medicines": ["Anti-anxiety medicines", "SSRIs"],
+    "organic_remedies": ["Meditation", "Breathing exercises"],
+    "food_suggestions": ["Green tea", "Nuts"],
+    "doctor_suggestion": "Consult psychiatrist if anxiety interferes with daily life."
+  },
+  {
+    "symptom": "depression",
+    "conditions": ["Major depressive disorder", "Bipolar disorder"],
+    "medicines": ["SSRIs", "Mood stabilizers"],
+    "organic_remedies": ["Meditation", "Daily exercise"],
+    "food_suggestions": ["Omega-3 foods", "Dark chocolate"],
+    "doctor_suggestion": "Seek professional therapy if persistent."
+  },
+{
+  "symptom": "leg pain",
+  "conditions": ["Muscle strain", "Nerve compression", "Vitamin D deficiency"],
+  "medicines": ["Pain relievers", "Muscle relaxants"],
+  "organic_remedies": ["Hot compress", "Gentle stretching", "Massage with oil"],
+  "food_suggestions": ["Calcium-rich foods", "Protein foods", "Hydrating fluids"],
+  "doctor_suggestion": "Consult doctor if pain persists more than a week or with swelling."
+},
+{
+  "symptom": "wrist pain",
+  "conditions": ["Carpal tunnel syndrome", "Sprain", "Arthritis"],
+  "medicines": ["Pain relievers", "Anti-inflammatory drugs"],
+  "organic_remedies": ["Rest wrist", "Ice pack", "Wrist brace"],
+  "food_suggestions": ["Omega-3 rich foods", "Leafy greens"],
+  "doctor_suggestion": "Consult orthopedist if wrist pain affects movement."
+},
+{
+  "symptom": "allergy",
+  "conditions": ["Seasonal allergy", "Food allergy", "Dust allergy"],
+  "medicines": ["Antihistamines", "Nasal sprays"],
+  "organic_remedies": ["Steam inhalation", "Honey with warm water"],
+  "food_suggestions": ["Vitamin C-rich fruits", "Turmeric milk"],
+  "doctor_suggestion": "See doctor if allergy leads to breathing issues."
+},
+{
+  "symptom": "constipation",
+  "conditions": ["Low fiber diet", "Dehydration", "Irritable bowel syndrome"],
+  "medicines": ["Laxatives", "Stool softeners"],
+  "organic_remedies": ["Drink warm water", "Regular exercise"],
+  "food_suggestions": ["High-fiber foods", "Prunes", "Green vegetables"],
+  "doctor_suggestion": "Consult doctor if constipation persists more than 1 week."
+},
+{
+  "symptom": "dehydration",
+  "conditions": ["Heatstroke", "Vomiting", "Diarrhea"],
+  "medicines": ["ORS solution", "IV fluids if severe"],
+  "organic_remedies": ["Drink coconut water", "Buttermilk"],
+  "food_suggestions": ["Watermelon", "Cucumber", "Soups"],
+  "doctor_suggestion": "Seek urgent care if severe dehydration with dizziness."
+},
+{
+  "symptom": "excessive sweating",
+  "conditions": ["Hyperhidrosis", "Anxiety", "Thyroid disorder"],
+  "medicines": ["Antiperspirants", "Nerve blockers (if prescribed)"],
+  "organic_remedies": ["Wear cotton clothes", "Stay hydrated"],
+  "food_suggestions": ["Electrolyte drinks", "Light meals"],
+  "doctor_suggestion": "Consult doctor if sweating is sudden and unexplained."
+},
+{
+  "symptom": "itching",
+  "conditions": ["Skin allergy", "Fungal infection", "Eczema"],
+  "medicines": ["Antihistamines", "Anti-fungal creams"],
+  "organic_remedies": ["Aloe vera gel", "Neem water bath"],
+  "food_suggestions": ["Avoid spicy food", "Eat fresh fruits"],
+  "doctor_suggestion": "Consult dermatologist if itching persists >1 week."
+},
+{
+  "symptom": "sleepiness",
+  "conditions": ["Sleep apnea", "Anemia", "Diabetes"],
+  "medicines": ["Vitamin supplements", "Iron tablets"],
+  "organic_remedies": ["Maintain sleep routine", "Mild exercise"],
+  "food_suggestions": ["Fruits", "Nuts", "Light meals"],
+  "doctor_suggestion": "See doctor if daytime sleepiness interferes with daily work."
+},
+{
+  "symptom": "weight loss",
+  "conditions": ["Thyroid issues", "Diabetes", "Cancer (rare)"],
+  "medicines": ["Vitamin supplements", "Hormone therapy if needed"],
+  "organic_remedies": ["Balanced diet", "Adequate sleep"],
+  "food_suggestions": ["Protein shakes", "High-calorie nutritious foods"],
+  "doctor_suggestion": "Seek medical advice if unexplained weight loss persists."
+},
+{
+  "symptom": "weight gain",
+  "conditions": ["Hypothyroidism", "PCOS", "Overeating"],
+  "medicines": ["Thyroid medication (if prescribed)", "Metformin (in PCOS cases)"],
+  "organic_remedies": ["Daily walking", "Yoga"],
+  "food_suggestions": ["Low-calorie meals", "Green vegetables"],
+  "doctor_suggestion": "Consult doctor if weight gain is sudden and unexplained."
+} , {
+    "symptom": "allergy",
+    "conditions": ["Seasonal allergy", "Dust allergy", "Food allergy"],
+    "medicines": ["Antihistamines", "Nasal sprays"],
+    "organic_remedies": ["Steam inhalation", "Saline nasal rinse"],
+    "food_suggestions": ["Vitamin C-rich fruits", "Warm herbal teas"],
+    "doctor_suggestion": "Consult allergist if allergies are severe or persistent."
+  },
+  {
+    "symptom": "burn injury",
+    "conditions": ["Minor burn", "Skin blister", "Severe burn"],
+    "medicines": ["Antiseptic ointment", "Pain relievers"],
+    "organic_remedies": ["Apply aloe vera gel", "Cool compress"],
+    "food_suggestions": ["Protein-rich foods", "Vitamin C foods"],
+    "doctor_suggestion": "Seek immediate care for 2nd or 3rd degree burns."
+  },
+  {
+    "symptom": "nosebleed",
+    "conditions": ["Dry air", "Nasal injury", "Hypertension"],
+    "medicines": ["Nasal drops", "Blood pressure medicines if related"],
+    "organic_remedies": ["Pinch nose and lean forward", "Apply cold compress"],
+    "food_suggestions": ["Stay hydrated", "Vitamin K-rich foods"],
+    "doctor_suggestion": "See doctor if bleeding is frequent or severe."
+  },
+  {
+    "symptom": "swollen glands",
+    "conditions": ["Infection", "Tonsillitis", "Immune response"],
+    "medicines": ["Antibiotics if bacterial", "Pain relievers"],
+    "organic_remedies": ["Warm compress", "Rest"],
+    "food_suggestions": ["Soups", "Herbal teas"],
+    "doctor_suggestion": "Consult doctor if swelling is painful or persists >2 weeks."
+  },
+  {
+    "symptom": "sweating excessively",
+    "conditions": ["Hyperhidrosis", "Thyroid disorder", "Anxiety"],
+    "medicines": ["Antiperspirants", "Beta-blockers if prescribed"],
+    "organic_remedies": ["Stay in cool environment", "Wear cotton clothes"],
+    "food_suggestions": ["Avoid spicy foods", "Stay hydrated"],
+    "doctor_suggestion": "See doctor if sweating is sudden or unexplained."
+  },
+  {
+    "symptom": "hand pain",
+    "conditions": ["Carpal tunnel syndrome", "Arthritis", "Injury"],
+    "medicines": ["Pain relievers", "Anti-inflammatory drugs"],
+    "organic_remedies": ["Hand stretches", "Warm compress"],
+    "food_suggestions": ["Calcium-rich foods", "Omega-3 foods"],
+    "doctor_suggestion": "Consult doctor if pain is persistent or with numbness."
+  },
+  {
+    "symptom": "foot pain",
+    "conditions": ["Plantar fasciitis", "Injury", "Arthritis"],
+    "medicines": ["Pain relievers", "Muscle relaxants"],
+    "organic_remedies": ["Foot massage", "Warm water soak"],
+    "food_suggestions": ["Vitamin D foods", "Magnesium-rich foods"],
+    "doctor_suggestion": "Consult orthopedist if pain persists >1 week."
+  },
+  {
+    "symptom": "swelling in face",
+    "conditions": ["Allergic reaction", "Kidney issue", "Sinus infection"],
+    "medicines": ["Antihistamines", "Diuretics if prescribed"],
+    "organic_remedies": ["Cold compress", "Elevate head while resting"],
+    "food_suggestions": ["Low-salt diet", "Fruits with antioxidants"],
+    "doctor_suggestion": "Seek medical help if swelling is sudden or with breathing issues."
+  },
+  {
+    "symptom": "itching",
+    "conditions": ["Allergy", "Skin dryness", "Insect bite"],
+    "medicines": ["Antihistamines", "Anti-itch creams"],
+    "organic_remedies": ["Aloe vera gel", "Oatmeal bath"],
+    "food_suggestions": ["Avoid oily/junk foods", "Eat fruits and veggies"],
+    "doctor_suggestion": "Consult dermatologist if itching is persistent or widespread."
+  },
+  {
+    "symptom": "palpitations",
+    "conditions": ["Anxiety", "Heart arrhythmia", "Thyroid disorder"],
+    "medicines": ["Beta-blockers", "Anti-anxiety medicines"],
+    "organic_remedies": ["Deep breathing", "Yoga/meditation"],
+    "food_suggestions": ["Avoid caffeine", "Eat heart-healthy foods"],
+    "doctor_suggestion": "Seek immediate care if palpitations with chest pain or dizziness."
+  }
+
+
+]

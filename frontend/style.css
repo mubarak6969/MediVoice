@@ -1,0 +1,77 @@
+/* frontend/style.css */
+body {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  background: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(20, 30, 50, 0.08);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #1f2d3d;
+}
+
+.tagline {
+  margin: 6px 0 18px 0;
+  color: #586374;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.controls button {
+  padding: 10px 16px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(34, 60, 80, 0.06);
+}
+
+#startBtn { background: #2ecc71; color: white; }
+#stopBtn { background: #ff6b6b; color: white; }
+
+.output .transcript {
+  font-style: italic;
+  color: #333;
+  margin: 8px 0 0 0;
+}
+
+.result {
+  margin-top: 18px;
+}
+
+.card {
+  background: #fbfdff;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-left: 4px solid #e6eefc;
+}
+
+.card h3 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  color: #243447;
+}
+
+.card p {
+  margin: 0;
+  color: #33475b;
+}

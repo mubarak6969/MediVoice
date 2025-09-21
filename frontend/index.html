@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MediVoice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎙️ MediVoice</h1>
+      <p class="tagline">Your AI-powered health assistant</p>
+    </header>
+
+    <main>
+      <div class="controls">
+        <button id="startBtn">🎤 Start Listening</button>
+        <button id="stopBtn" disabled>⏹️ Stop Listening</button>
+      </div>
+
+      <section class="output">
+        <p><strong>Transcript:</strong></p>
+        <p id="transcript" class="transcript">—</p>
+      </section>
+
+      <section id="result" class="result"></section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
